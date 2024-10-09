@@ -1,0 +1,309 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: poppins;
+}
+
+body {
+    background-color: black;
+}
+
+.main .box {
+    height: 70vh;
+    width: 100%;
+    opacity: 0.5;
+    background-color: black;
+    position: absolute;
+    top: 0;
+
+}
+
+.main {
+    background-image: url("assets/big bg.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: max(1200px, 100vw);
+    height: 70vh;
+    position: relative;
+}
+
+nav {
+    height: 66px;
+    display: flex;
+    justify-content: space-between;
+    max-width: 80vw;
+    margin: auto;
+    padding: 10px;
+    align-items: center;
+    position: relative;
+    z-index: 10;
+}
+
+.head {
+    position: relative;
+    height: calc(100% - 66px);
+    color: white;
+    font-weight: 900;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Martel Sans", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    text-align: center;
+}
+
+.s1 {
+    font-size: 50px;
+    margin: 10px;
+}
+
+.s {
+    font-size: 20px;
+    margin: 10px;
+    font-weight: 200;
+}
+
+.si {
+    background-color: red;
+    font-size: 15px;
+    border: 2px solid red;
+    color: white;
+    font-weight: 600;
+    padding: 7px 6px;
+    margin: 10px;
+    border-radius: 6px;
+    width: 90px;
+    height: 35px;
+
+}
+
+.e {
+    border: 1px solid grey;
+    background-color: rgba(23, 23, 23, 0.2);
+    font-size: 15px;
+    color: white;
+    font-weight: 600;
+    padding: 7px;
+    margin: 10px;
+    border-radius: 6px;
+    width: 120px;
+    height: 35px;
+    text-align: center;
+}
+
+.line {
+    height: 10px;
+    background-color: rgb(48, 48, 48);
+    max-width: 100vw;
+    margin: auto;
+    position: relative;
+}
+
+.input {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.input input {
+    position: relative;
+    z-index: 10;
+    font-size: 15px;
+    padding: 14px 160px 14px 10px;
+    color: white;
+    font-weight: bolder;
+    background-color: rgba(23, 23, 23, 0.7);
+    border: 1px solid grey;
+    border-radius: 4px;
+
+}
+
+.input button {
+    background-color: red;
+    color: white;
+    font-size: 20px;
+    position: relative;
+    z-index: 10;
+    margin: 5px;
+    border-radius: 6px;
+    padding: 12px 35px;
+    font-weight: 600;
+    font-size: 20px;
+    border: 2px solid red;
+}
+
+.first {
+    height: 65vh;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    max-width: 70vw;
+    margin: auto;
+}
+
+.second {
+    height: 65vh;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    max-width: 70vw;
+    margin: auto;
+}
+
+.third {
+    height: 65vh;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    max-width: 70vw;
+    margin: auto;
+}
+
+.fourth {
+    height: 65vh;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    max-width: 70vw;
+    margin: auto;
+}
+
+.fifth {
+    height: 65vh;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    max-width: 70vw;
+    margin: auto;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.fourthcontent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.first .content span {
+    font-size: 50px;
+    font-weight: 900;
+}
+
+.first .content div {
+    font-size: 20px;
+    font-weight: 500;
+    width: 36vw;
+}
+
+.second1 {
+    font-size: 50px;
+    font-weight: 900;
+}
+
+.second2 {
+    font-size: 20px;
+    font-weight: 500;
+    width: 36vw;
+}
+
+.tv1 {
+    position: relative;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tv2 {
+    /* border: 2px solid red; */
+    position: relative;
+    height: 500px;
+    width: 650px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ipdiv {
+    position: relative;
+}
+
+.ip {
+    width: 38vw;
+}
+
+.tv1 video {
+    position: absolute;
+    width: 26vw;
+}
+
+.tv2 video {
+    position: absolute;
+    width: 380px;
+    top: 60px;
+}
+
+.tv2 img {
+    position: absolute;
+    z-index: 10;
+}
+
+.first img {
+    z-index: 10;
+    position: absolute;
+    width: 32vw;
+}
+
+.install {
+    border: 2px solid grey;
+    height: 14vh;
+    width: 22vw;
+    border-radius: 10px;
+    position: absolute;
+    background-color: black;
+}
+
+.strange {
+    height: 80px;
+    width: auto;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.st1 {
+    position: absolute;
+    left: 80px;
+    top: 30px;
+    font-size: 16px;
+    font-weight: 800;
+}
+
+.st2 {
+    position: absolute;
+    left: 80px;
+    top: 50px;
+    font-size: 15px;
+    font-weight: 450;
+    color: #0066FF;
+}
